@@ -1,4 +1,4 @@
-import { createConnection, getConnectionOptions, createConnections } from 'typeorm';
+import { createConnection, getConnectionOptions } from 'typeorm';
 import { SnakeNamingStrategy } from 'typeorm-naming-strategies';
 
 async function createConn(){
